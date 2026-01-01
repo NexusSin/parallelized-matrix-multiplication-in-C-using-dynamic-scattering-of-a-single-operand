@@ -67,10 +67,9 @@ help: # Show help information
 
 include utils/build.mk
 include simple_examples/build.mk
-include exercises/build.mk
 
 .PHONY: all
-all: exercises simple_examples libraries
+all: simple_examples libraries
 
 .PHONY: clean
 clean: # Clear contents of build directory
